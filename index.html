@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Advogada</title>
+    <link rel="stylesheet" href="css/styleCSS.css">
+    <link rel="stylesheet" href="css/mobli.css">
+</head>
+<body>
+  <header class="cabecalho">
+    <img class="logo" src="img/logo.png" alt="logo">
+    <div class="menu-btn">
+      <img src="icon/menu.svg">
+  </div>
+    <ul class="menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#quemsou">Quem sou</a></li>
+        <li><a href="#direito">Direito</a></li>
+    </ul>
+  </header>
+  <div class="bgCabecalho"></div>
+  <main>
+    <section id="inicio">
+      <div class="boxInicio">
+        <div class="caixadetexto">
+        <p>Entre em contato, e tenha seus direitos trabalhistas garantidos.</p>
+        <button>Enviar Mensagem</button>
+        <dialog>
+          <button>Fechar</button>
+          <form name="meu_form">
+            <h1>Mande sua mensagem</h1>
+            <label for="nome">Seu nome</label>
+            <input type="text" id="nomeid" placeholder="Seu nome" required="required" name="nome" /> 
+            <label for="Telefone">Telefone</label>
+            <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+            <label for="email">Email</label>
+            <input type="email" id="emailid" placeholder="SeuEmail@email.com" name="email" /><br>
+            <textarea placeholder="Escreva sua mensagem" cols="30" rows="5"></textarea>
+            <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+          </form>
+          </dialog>
+        </div>
+        <img src="img/Advogada.png" class="imgAdv">
+      </div>
+    </section>
+    <div class="midiasInicio">
+      <a href="#"><img src="img/icon-whatsapp.png" alt="Whatsapp"></a>
+      <a href="#"><img src="img/icon-instagram.png" alt="instagram"></a>
+      <a href="#"><img src="img/icon-facebook.png" alt="facebook"></a>
+      <a href="#"><img src="img/icon-twitter.png" alt="twitter"></a>
+    </div>
+    <section id="quemsou">
+        <img src="img/Advogada2.png" alt="Gabi">
+        <div class="textquemsou">
+          <h1>Quem sou</h1><br>
+          <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit cupiditate illo eius accusantium. Officiis magnam perspiciatis odit libero nemo. Suscipit repellendus quaerat culpa quam labore maiores cupiditate sunt. Aliquam, laborum. <br><br> 
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident adipisci beatae nesciunt voluptate, commodi repellendus maiores dicta aspernatur quidem impedit minus similique voluptatem voluptates quod neque non ut saepe esse.
+          </div>
+    </section>
+    <div class="midiasQuemsou">
+      <a href="#"><img src="img/icon-whatsapp.png" alt="Whatsapp"></a>
+      <a href="#"><img src="img/icon-instagram.png" alt="instagram"></a>
+      <a href="#"><img src="img/icon-facebook.png" alt="facebook"></a>
+      <a href="#"><img src="img/icon-twitter.png" alt="twitter"></a>
+    </div>
+    <section id="direito">
+        <div class="textDireito">
+          <h1>Direito do Trabalho</h1><br>
+          <p>O direito do trabalho garante um equilíbrio na relação entre empregador e empregador e, por isso, tem um papel muito importante para manter ambas as partes protegidas. Para as empresas, ele funciona como uma base que auxilia na manutenção de uma relação regularizada com os colaboradores.</p>
+        </div>
+        <img src="img/trabalhista.png" alt="">
+    </section>
+    <div class="midiasDireito">
+      <a href="#"><img src="img/icon-whatsapp.png" alt="Whatsapp"></a>
+      <a href="#"><img src="img/icon-instagram.png" alt="instagram"></a>
+      <a href="#"><img src="img/icon-facebook.png" alt="facebook"></a>
+      <a href="#"><img src="img/icon-twitter.png" alt="twitter"></a>
+    </div>
+  </main>
+  <footer>&copy; Copyright <strong>Dra. Advogada Trabalhista</strong>. Todos os Direitos Reservados</footer>
+  <!-- Desenvolvido por "Nahin Moreira" email: nahin_msm@hotmail.com -->
+    
+    </body>
+    <script src="js/script.js"></script>
+    <script>
+      // const button = document.querySelector("button");
+      // const modal = document.querySelector("dialog");
+      // const buttonClose = document.querySelector("dialog button")
+      
+      // button.onclick=function (){
+      //     modal.show()
+      // }
+      // buttonClose.onclick=function(){
+      //     modal.close()
+      // }
+  </script>
+</html>

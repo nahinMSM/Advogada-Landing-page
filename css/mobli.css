@@ -1,0 +1,150 @@
+@media (max-width: 1010px) {
+    .menu-btn {
+        display: block;
+    }
+
+    header ul {
+        position: fixed;
+        top: 64px;
+        left: -110%;
+        background-color: black;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        display: block;
+        transition: 0.5s;
+    }
+
+    header ul li {
+        width: 100%;
+        margin-left: -30px;
+        margin-top: 50px;
+    }
+
+    header ul li a {
+        font-size: 23px;
+    }
+
+    header ul li a:hover {
+        background: none;
+        color: white;
+    }
+
+    .open {
+        left: 0;
+    }
+
+    .logo {
+        height: 85px;
+    }
+
+    .bgCabecalho {
+        background-image: none;
+        background-color: black;
+        height: 110px;
+    }
+
+    #inicio {
+        margin: 0;
+        height: 100vh;
+        width: 100%;
+    }
+
+    #inicio .boxInicio {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #inicio .caixadetexto {
+        margin-left: 0;
+        order: 2;
+        margin-top: -100px;
+    }
+
+    #inicio p {
+        width: 250px;
+        font-size: 20px;
+    }
+
+    #inicio button {
+        width: 100%;
+    }
+
+    #inicio .imgAdv {
+        height: 410px;
+    }
+
+    .midiasInicio {
+        margin-left: 22%;
+    }
+
+    .midiasInicio img {
+        height: 40px;
+    }
+
+    dialog {
+        margin-top: -380px;
+    }
+
+    dialog form {
+        width: 100%;
+    }
+
+    #quemsou {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #quemsou img {
+        height: 250px;
+    }
+
+    #quemsou .textquemsou {
+        width: 300px;
+        margin-top: -250px;
+        font-size: 12px;
+    }
+
+    .midiasQuemsou {
+        margin-top: -50px;
+        margin-left: 22%;
+    }
+
+    .midiasQuemsou img {
+        height: 40px;
+    }
+
+    #direito {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #direito img {
+        height: 255px;
+        margin-top: -115px;
+    }
+
+    .midiasDireito {
+        margin-top: -50px;
+        margin-left: 22%;
+    }
+
+    .midiasDireito img {
+        height: 40px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+
+}
