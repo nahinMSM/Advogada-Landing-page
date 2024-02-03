@@ -8,7 +8,6 @@ function menuShow() {
 
     if (menu.classList.contains('open')) {
         menu.classList.remove('open')
-
         document.querySelector('.menu-btn img').src = 'icon/menu.svg'
     } else {
         menu.classList.add('open')
@@ -22,11 +21,11 @@ function sairMenu() {
     document.querySelector('.menu-btn img').src = 'icon/menu.svg'
 }
 
-let button = document.querySelector("button");
+let buttonOpen = document.querySelector("button");
 let modal = document.querySelector("dialog");
 let buttonClose = document.querySelector("dialog button")
 
-button.onclick = function () {
+buttonOpen.onclick = function () {
     modal.show()
 }
 buttonClose.onclick = function () {
