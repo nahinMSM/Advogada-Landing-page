@@ -1,2 +1,2 @@
 # Advogada-Landing-page
-Layout responcivo de landing page  pra Advogada trabalhista.
+Layout responcivo, landing page para Advogada trabalhista.
